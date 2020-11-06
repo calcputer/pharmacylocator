@@ -1,0 +1,17 @@
+{
+  "name": "pharmloc",
+  "version": "1.0.0",
+  "description": "REST endpoint to locate nearest pharmacy from latitude & longitude",
+  "main": " main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "s-haversine": "^2.0.0",
+    "sqlite": "^4.0.15",
+    "sqlite3": "^5.0.0"
+  }
+}
